@@ -26,7 +26,7 @@ namespace apifilmes.Models
         [Column("vl_avaliacao", TypeName = "decimal(10,2)")]
         public decimal? VlAvaliacao { get; set; }
         [Column("bt_disponivel")]
-        public sbyte? BtDisponivel { get; set; }
+        public bool? BtDisponivel { get; set; }
         [Column("dt_lancamento", TypeName = "date")]
         public DateTime? DtLancamento { get; set; }
 
